@@ -23,3 +23,26 @@ function toggleHamburgerOff(){
 	navbar.classList.remove("showNav");
 	blackBackground.classList.remove("blackbackgroundOn");
 }
+
+// BRON : https://www.w3schools.com/howto/howto_js_sticky_header.asp
+
+var header = document.querySelector("header");
+var main = document.querySelector("main");
+
+window.onscroll = function(){
+	calcSticky();
+};
+
+var sticky = header.offsetTop;
+
+function calcSticky(){
+	if(window.pageYOffset > sticky){
+			header.classList.remove("header-hidden")
+		    header.classList.add("header-sticky")
+		    main.classList.add("stickyMargin")
+	}else{
+		    header.classList.remove("header-sticky")
+			header.classList.add("header-hidden")
+			main.classList.remove("stickyMargin")
+	}
+}
