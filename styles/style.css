@@ -296,6 +296,7 @@ section > ul {text-decoration: none;list-style: none;}
     overflow: hidden;
     white-space: nowrap;
     padding-left: 0.11rem;
+    text-align: left;
 }
 
 .h-section2 > ul > li > a > p:nth-child(2) {
