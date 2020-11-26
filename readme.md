@@ -7,7 +7,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Bronnenlijst
 1. https://genshin.mihoyo.com/en
-2. -bron 2-
+2. https://www.w3schools.com/howto/howto_js_sticky_header.asp
 3. -...-
 
 
@@ -46,12 +46,24 @@ Om heel eerlijk te zijn vond ik het lastig om met mijn nieuwe kennis deze layout
 Javascript vond ik vanaf het begin lastig maar ik ben aardig op weg om het beter te begrijpen en denk dat ik onder de knie heb wat ons tot nu toe is geleerd.
 
 **Screenshot(s):**
+Ik ben als ik zelf mag zeggen aardig opweg, ik mis nog enkel een aantal dingen als wat dingen op de home pagina en de footer maar voor derest heb ik de pagina goed in elkaar gezet.
 
--screenshot(s) van hoe ver je bent met korte uitleg-
+<img src="images/week3/Home-section1.PNG">
+Ik heb hier de content bijna pixel perfect nagebouwd, ik heb geprobeerd het positioneren van de lessen toe te passen.
+
+<img src="images/week3/Home-section1b.PNG">
+Hier zie je de iets geavanceerdere button die ik heb na weten te schrijven, in de button zit nog een before waarin de play knop in het midden met css word gestyled.
+
+<img src="images/week3/Home-section2.PNG">
+Hier heb ik geprobeerd de nieuwslijst na te bouwen, de li'tjes waarin a's en p's stonden heb ik goed overgenomen. Echter krijg ik het niet voor elkaar om de 3 punten achter iedere tekst te zetten als die te lang is... daar kom ik nog op terug
+
+<img src="images/week3/Home-section2b.PNG">
+Hier zie je dat ik mijn achtergrond via css toevoeg aan de section, deze positioneer ik zo zodat men het meeste van de afbeelding nog kan zien.
+
+<img src="images/week3/home-nav.PNG">
+De nav heb ik ook 1 op 1 geprobeerd na te bouwen, hij komt geanimeerd naar binnen en gaat ook weer zo weg, het achtergrond word donkerder gemaakt net als op de echte website. Hiervoor heb ik mijn eerste div gebruikt op de website omdat ik er niet uitkwam hoe ik dit anders kon doen...
 
 ### Agenda voor meeting
-
--samen met je groepje opstellen-
 
 | Daan | Andrej | Jeffrey | Bilal |
 | --- | --- | --- | --- |
@@ -69,8 +81,6 @@ Javascript vond ik vanaf het begin lastig maar ik ben aardig op weg om het beter
 ## Breakdownschets (week 1)
 
 <img src="images\Week1\breakdown-schets-1.PNG" width="375px" alt="breakdownschets van de website">
-
-
 
 ## Intake (week 1)
 -uitwerken voor de kick-off werkgroep - begin van de eerste week-
