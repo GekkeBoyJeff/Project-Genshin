@@ -19,7 +19,7 @@ header {
 	display: flex;
 	height: 3.6rem;
 	padding: 0.6rem;
-	background-color: rgba(255, 255, 255, 0);
+	background-color: rgba(0, 0, 0, 0.75);
 	align-items: center;
 	z-index: 2;
 	position: relative;
@@ -42,6 +42,10 @@ header > a:nth-child(2) {
 header>a>img {
 	display: block;
 	height: 100%;
+}
+
+header.header-hidden{
+	    /* background-color: rgba(255, 255, 255, 0); */
 }
 
 header.header-hidden > a:nth-child(1) > img, header.header-hidden > a:nth-child(2) {
