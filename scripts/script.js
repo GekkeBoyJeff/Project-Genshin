@@ -23,5 +23,3 @@ function toggleHamburgerOff(){
 	navbar.classList.remove("showNav");
 	blackBackground.classList.remove("blackbackgroundOn");
 }
-
-// BRON : https://dev.to/ljcdev/easy-hamburger-menu-with-js-2do0

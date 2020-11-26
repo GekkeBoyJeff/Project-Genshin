@@ -168,7 +168,7 @@ h1>a>img {
 	width: 100%;
 }
 
-section.home-1 {
+main > .home-1 {
 	height: 100vh;
 	background: url(../images/home-background-1.jpg);
 	background-size: cover;
@@ -177,7 +177,7 @@ section.home-1 {
 	object-fit: contain;
 }
 
-section.home-1 > h1 {
+.home-1 > h1 {
 	width: 70%;
 	margin: 0 auto;
 	padding-top: 4rem;
@@ -223,7 +223,7 @@ button.open-video::before {
 	margin-top: 9px;
 }
 
-section.home-1 > a {
+.home-1 > a {
     display: flex;
     position: absolute;
     left: 0;
@@ -240,4 +240,72 @@ section.home-1 > a {
     font-size: 0.8em;
     line-height: 2rem;
     padding: 11px;
+}
+
+/* 2de section homepage */
+
+section.h-section2 {height: auto;background: url(../images/home-section2-background.jpg);background-size: cover;position: relative;width: 100vw;object-fit: contain;text-align: center;padding: 2rem 1rem 2rem 1rem;color: white;}
+
+h2::before {
+    content: '';
+    display: inline-flex;
+    height: 2rem;
+    width: 33%;
+    background: url(../images/home-section2-before.png) no-repeat right center/cover;
+    background-size: contain;
+    margin-right: 1rem;
+    background-position: center 0.7rem;
+}
+
+h2 {display: inline-flex;width: 100%;justify-content: center;padding-bottom: 1rem;}
+
+h2::after {
+    content: '';
+    display: inline-flex;
+    height: 2rem;
+    width: 33%;
+    background: url(../images/home-section2-before.png) no-repeat right center/cover;
+    background-size: contain;
+    margin-left: 1rem;
+    background-position: center 0.7rem;
+    transform: rotateY(180deg);
+}
+
+section > img {
+    display: flex;
+    width: 100%;
+    border: solid 1px #fff;
+}
+
+section > ul {text-decoration: none;list-style: none;}
+
+.h-section2 > ul > li > a > p:nth-child(1) {
+    width: 67%;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-left: 0.11rem;
+}
+
+.h-section2 > ul > li > a > p:nth-child(2) {
+    display: inline-flex;
+    width: 33%;
+    justify-content: flex-end;
+    color: rgba(255, 255, 255, 0.35);
+}
+
+.h-section2 > ul > li > a > p {
+    color: #fff;
+    font-size: 0.58rem;
+}
+
+.h-section2 > ul > li > a {height: 2.4rem;display: flex;align-items: center;border-bottom: 0.02rem solid rgba(255, 255, 255, 0.08);text-decoration: none;justify-content: space-between;}
+
+.h-section2 > a {
+    display: block;
+    line-height: 2.2rem;
+    color: #ffd49f;
+    background: rgba(255, 212, 159, 0.1);
+    border: rgba(255, 212, 159, 0.7) solid 0.02rem;
+    border-radius: 0.04rem;
+    text-decoration: none;
 }
