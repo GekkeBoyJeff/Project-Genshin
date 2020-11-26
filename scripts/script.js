@@ -13,6 +13,7 @@ var blackBackgroundOff = document.querySelector(".blackBackgroundOn");
 
 hamburger.addEventListener("click", toggleHamburgerOn);
 close.addEventListener("click", toggleHamburgerOff);
+blackBackground.addEventListener("click", toggleHamburgerOff);
 
 function toggleHamburgerOn(){
 	navbar.classList.add("showNav");
